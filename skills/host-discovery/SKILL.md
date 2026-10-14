@@ -1,7 +1,7 @@
 ---
 name: host-discovery
 description: Layer-2/3 live-host discovery — turn a scope of CIDRs into a deduplicated live-host list before port scanning, using fping, arp-scan, netdiscover, nmap -sn, zmap and nbtscan, then merge all sources into one alive.txt and emit port-scan work units.
-license: Proprietary
+license: Apache-2.0
 compatibility: Linux with fping, arp-scan, netdiscover, nmap, zmap, nbtscan installed; root/CAP_NET_RAW for raw-socket tools
 metadata:
   author: Section9Labs

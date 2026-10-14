@@ -1,7 +1,7 @@
 ---
 name: codeql
 description: Deep interprocedural security code review with the GitHub CodeQL CLI — build a database from source, run the standard security query suites or custom taint-tracking queries, and parse SARIF code-flow paths (source→sink) into triageable work units. Use when semgrep-style intrafile matching is not enough — taint through many functions/files, framework-aware dataflow, injection/deserialization/SSRF chains across a whole codebase.
-license: MIT
+license: Apache-2.0
 metadata:
   author: Section9Labs
 ---

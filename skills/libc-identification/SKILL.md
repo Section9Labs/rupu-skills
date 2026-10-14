@@ -1,6 +1,7 @@
 ---
 name: libc-identification
 description: Identify the exact remote glibc build from one or more leaked runtime addresses (libc-database / libc.rip), compute the libc base, and resolve system/str_bin_sh/one_gadget offsets. Use immediately after leaking a libc pointer (GOT read via rop-chains, format-string %s leak, unsorted-bin fd leak) and before building the final ret2libc/one_gadget or heap-exploitation stage.
+license: Apache-2.0
 metadata:
   author: Section9Labs
 ---

@@ -1,7 +1,7 @@
 ---
 name: njsscan
 description: Static security scanning of Node.js/JavaScript codebases with njsscan (MobSF's semgrep+regex SAST) — install, run with JSON/SARIF output, tune with .njsscan configs and --missing-controls, triage SQLi/NoSQLi/command-injection/eval/prototype-pollution/secret findings, convert results into rupu work units, and route to eslint-plugin-security, semgrep, codeql, or taint-analysis for deeper coverage. Use whenever a target repo contains JavaScript/TypeScript server code (Express/Koa/Fastify, Electron main process, Node CLIs, template files).
-license: MIT
+license: Apache-2.0
 metadata:
   author: Section9Labs
 ---

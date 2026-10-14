@@ -1,6 +1,7 @@
 ---
 name: fuzzing
 description: Coverage-guided fuzzing with AFL++, honggfuzz, and libFuzzer to discover crashing inputs in native code — write one harness that drives all three engines, instrument with sanitizers and CmpLog, seed and minimize a corpus, run multi-core campaigns, then triage, minimize, and deduplicate crashes into work units for vuln-classes and the exploitation skills. Use whenever you have a binary or library (with or without source) and need memory-safety bugs.
+license: Apache-2.0
 metadata:
   author: Section9Labs
 ---

@@ -1,6 +1,7 @@
 ---
 name: rop-chains
 description: Build ROP chains to defeat NX/ASLR — gadget discovery with ROPgadget/ropper/r2, ret2plt GOT leaks, ret2libc, SROP sigreturn frames, ret2dlresolve without a libc leak, one_gadget, and stack pivots; use when a binary has NX and you control the return address or another indirect transfer.
+license: Apache-2.0
 compatibility: linux, python3, ROPgadget/ropper/one_gadget optional
 metadata:
   author: Section9Labs

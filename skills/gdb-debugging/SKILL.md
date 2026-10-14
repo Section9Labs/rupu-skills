@@ -1,6 +1,7 @@
 ---
 name: gdb-debugging
 description: Dynamic analysis and exploit development with gdb plus the GEF and pwndbg extensions — launching/attaching, finding overflow offsets with cyclic patterns, inspecting memory/registers/GOT/heap, setting breakpoints and watchpoints to catch corruption, and deriving runtime addresses to defeat ASLR. Use when you have a target binary (crash triage, offset discovery, heap-state inspection, leak verification) during exploit development.
+license: Apache-2.0
 metadata:
   author: Section9Labs
 ---

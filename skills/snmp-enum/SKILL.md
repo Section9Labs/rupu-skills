@@ -1,7 +1,7 @@
 ---
 name: snmp-enum
 description: Enumerate SNMP services (udp/161, traps udp/162) found by recon — brute community strings with onesixtyone, walk high-value OIDs with snmpwalk/snmpbulkwalk/braa, dump hosts with snmp-check, probe v3 users, test write communities, and hand off subnets, creds-in-cmdlines and findings as rupu work units.
-license: Proprietary
+license: Apache-2.0
 compatibility: Linux attack host with net-snmp, onesixtyone, snmp-check, braa; python3 for the parser
 metadata:
   author: Section9Labs

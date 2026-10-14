@@ -1,7 +1,7 @@
 ---
 name: grype-syft
 description: Generate SBOMs with Anchore Syft (directories, files, container images, registries) and scan them for known vulnerabilities with Grype; normalize Grype SARIF/JSON into work units for triage and fan-out. Use for the SBOM + SCA step of a code review, especially when there are no lockfiles, when scanning built images, or to cross-check osv-scanner.
-license: MIT
+license: Apache-2.0
 metadata:
   author: Section9Labs
   tools: "syft, grype"

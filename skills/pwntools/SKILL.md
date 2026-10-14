@@ -1,6 +1,7 @@
 ---
 name: pwntools
 description: Exploit development with the pwntools framework — context/ELF/libc setup, process/remote/ssh tubes, packing and cyclic offset discovery, ROP objects, shellcraft shellcode, gdb integration, and the fmtstr helper; use when writing, debugging, or running a binary-exploitation PoC against a local binary or a remote service.
+license: Apache-2.0
 compatibility: linux, python3, pwntools>=4.x
 metadata:
   author: Section9Labs

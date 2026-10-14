@@ -1,6 +1,7 @@
 ---
 name: vuln-classes
 description: Identify common memory-safety and logic vulnerability classes in a binary — stack/heap overflow, use-after-free/double-free, format string, integer overflow/signedness, off-by-one/null-byte — giving for each the source pattern, the disassembly signature (objdump/Ghidra/r2), the dynamic confirmation (gdb/ASan/trace), and the primitive plus the exploitation skill to hand off to. Use after triage/RE/fuzzing surfaces a suspicious function or crash and you need to name the bug and pick the exploitation path.
+license: Apache-2.0
 metadata:
   author: Section9Labs
 ---

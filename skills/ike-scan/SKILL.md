@@ -1,7 +1,7 @@
 ---
 name: ike-scan
 description: Discover, fingerprint and attack IPsec/IKE VPN gateways on udp/500 and 4500 with ike-scan — main vs aggressive mode, transform enumeration, Vendor-ID and backoff fingerprinting, IKEv2, NAT-T, aggressive-mode PSK hash capture and offline cracking with psk-crack.
-license: Proprietary
+license: Apache-2.0
 compatibility: Linux with ike-scan and psk-crack installed; root/CAP_NET_RAW for source port 500
 metadata:
   author: Section9Labs

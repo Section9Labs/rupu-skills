@@ -1,7 +1,7 @@
 ---
 name: rustscan
 description: Very fast port discovery with RustScan — all 65k TCP ports in seconds via tuned batch sizes and ulimits, then pipe open ports straight into Nmap with the `--` passthrough; use -g greppable output for scripted pipelines and hand results to the nmap skill for the deep pass.
-license: Proprietary
+license: Apache-2.0
 compatibility: linux/macos (binary, docker, or cargo install rustscan)
 metadata:
   author: Section9Labs

@@ -1,7 +1,7 @@
 ---
 name: taint-analysis
 description: Manual + tool-assisted source-to-sink (taint) methodology for security code review — enumerate dangerous sinks with ripgrep sink-pattern packs, trace each sink backwards to an untrusted source, check for class-appropriate sanitizers on the path, confirm reachability, then generalize with semgrep taint-mode or CodeQL dataflow and file verified findings. Use as the core bug-finding technique on any source-code audit (SQLi, command/code injection, deserialization, SSRF, path traversal, XXE, IDOR/authz, crypto misuse, secrets).
-license: MIT
+license: Apache-2.0
 metadata:
   author: Section9Labs
 ---

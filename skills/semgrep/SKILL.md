@@ -1,7 +1,7 @@
 ---
 name: semgrep
 description: Run Semgrep (OSS CLI) static analysis for security code review across languages — pick registry rulesets, write custom pattern and taint rules, tune targeting/performance, emit SARIF/JSON, and convert results into rupu work units for fan-out triage. Use as the first SAST step on any source repository.
-license: MIT
+license: Apache-2.0
 metadata:
   author: Section9Labs
 ---

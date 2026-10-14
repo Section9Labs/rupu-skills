@@ -1,7 +1,7 @@
 ---
 name: binary-protections
 description: Read a binary's exploit mitigations (NX, stack canary, PIE, RELRO, FORTIFY_SOURCE, ASLR, CET/CFI, PE DEP/ASLR/CFG/SafeSEH, Mach-O) with checksec/rabin2/readelf and translate each one into a concrete exploitation-plan decision. Use right after binary-triage, before writing any exploit, to decide between shellcode, ROP, ret2libc, GOT overwrite, leak-first strategies, or canary bruteforce.
-license: Proprietary
+license: Apache-2.0
 compatibility: Linux host; checksec.sh or pwntools recommended; readelf/rabin2 fallback paths included; PE/Mach-O notes apply cross-platform
 metadata:
   author: Section9Labs

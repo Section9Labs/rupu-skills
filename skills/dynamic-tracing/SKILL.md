@@ -1,6 +1,7 @@
 ---
 name: dynamic-tracing
 description: Observe a target's library calls and syscalls with ltrace and strace — follow forks, decode fds, capture full argument strings, and spot attacker-reachable file/network/exec/dangerous-libcall behavior that points at vulnerabilities. Use early in binary triage to map what a program actually does with input before diving into gdb.
+license: Apache-2.0
 metadata:
   author: Section9Labs
 ---

@@ -1,7 +1,7 @@
 ---
 name: masscan
 description: Internet-scale asynchronous TCP SYN port scanning with masscan — rate-driven sweeps of huge ranges, banner grabbing with its userland TCP/IP stack, sharded/resumable scans, and parsing -oL/-oJ output into an ip→ports map handed to the nmap skill for deep service detection.
-license: Proprietary
+license: Apache-2.0
 compatibility: linux (root or CAP_NET_RAW required for raw-packet TX/RX)
 metadata:
   author: Section9Labs

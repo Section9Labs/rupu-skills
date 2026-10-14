@@ -1,7 +1,7 @@
 ---
 name: smb-enum
 description: SMB / MSRPC / NetBIOS enumeration (ports 139/445, 135, 137) with enum4linux-ng, smbmap, smbclient, rpcclient and nbtscan — null/guest/authenticated sessions, share walking, RID cycling, password policy, signing and SMBv1 checks. Use when recon finds 445/139/135/137 open on a target; outputs user lists, relay targets and work units for follow-on skills.
-license: Proprietary
+license: Apache-2.0
 compatibility: linux
 metadata:
   author: Section9Labs

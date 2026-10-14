@@ -1,7 +1,7 @@
 ---
 name: cargo-audit
 description: Audit Rust projects with cargo-audit (RustSec) by checking Cargo.lock — or compiled binaries via `cargo audit bin` — against the RustSec Advisory Database for vulnerable, unmaintained, unsound, and yanked crates, then normalize results into rupu work units for triage, verification, and reporting.
-license: MIT
+license: Apache-2.0
 metadata:
   author: Section9Labs
 ---

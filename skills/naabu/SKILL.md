@@ -1,7 +1,7 @@
 ---
 name: naabu
 description: Fast SYN/CONNECT port discovery with ProjectDiscovery's naabu — pipeline-friendly sweeps over hosts/lists with rate and concurrency control, CDN awareness, built-in service detection and an -nmap-cli handoff that runs nmap on every found port; emit -json for scripted ingestion into the nmap skill's deep pass.
-license: Proprietary
+license: Apache-2.0
 compatibility: linux/macos (go install or pdtm; SYN mode needs root/CAP_NET_RAW, else falls back to CONNECT)
 metadata:
   author: Section9Labs

@@ -1,7 +1,7 @@
 ---
 name: netexec
 description: Credentialed sweep, password spraying, and post-auth enumeration with NetExec (nxc) across SMB/LDAP/WinRM/MSSQL/SSH/FTP/RDP/WMI/VNC/NFS — fingerprint subnets, validate and spray credentials, dump SAM/LSA/NTDS, kerberoast, collect BloodHound, build SMB-relay target lists, and emit rupu-ingestible work units for the recon flow.
-license: Proprietary
+license: Apache-2.0
 compatibility: Requires netexec (nxc) >= 1.1 on the operator box; Python 3 for scripts/parse_nxc.py
 metadata:
   author: Section9Labs

@@ -1,7 +1,7 @@
 ---
 name: osv-scanner
 description: Run Google OSV-Scanner v2 against repositories, lockfiles, SBOMs and container images to match dependencies against the OSV.dev vulnerability database; normalize results (SARIF/JSON) into work units for triage and fan-out. Use for the SCA step of a code review when a repo has lockfiles/manifests or an SBOM exists.
-license: MIT
+license: Apache-2.0
 metadata:
   author: Section9Labs
   tool: osv-scanner

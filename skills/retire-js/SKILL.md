@@ -1,7 +1,7 @@
 ---
 name: retire-js
 description: Scan JavaScript/Node codebases with Retire.js to detect known-vulnerable JS libraries — including bundled, minified, copy-pasted or CDN-vendored front-end libs (jquery, angular, bootstrap, lodash...) that lockfile-based SCA misses — and normalize results into rupu work units for triage, verification, and reporting.
-license: MIT
+license: Apache-2.0
 metadata:
   author: Section9Labs
 ---

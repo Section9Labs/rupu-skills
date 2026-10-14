@@ -1,7 +1,7 @@
 ---
 name: ldap-ad-enum
 description: LDAP / Active Directory enumeration (ports 389/636/3268/3269) with ldapsearch, windapsearch and bloodhound-ce-python — anonymous rootDSE, authenticated object dumps, UAC-bit filters for kerberoastable/AS-REP/delegation accounts, LAPS/gMSA checks, trusts, and BloodHound CE collection. Use when recon finds LDAP ports open (usually a domain controller); outputs user/SPN lists and work units for follow-on skills.
-license: Proprietary
+license: Apache-2.0
 compatibility: linux
 metadata:
   author: Section9Labs

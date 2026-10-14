@@ -1,7 +1,7 @@
 ---
 name: binary-triage
 description: First-contact triage of an unknown binary (ELF/PE/Mach-O/raw blob) — identify format/arch/linkage, mine strings and imports for attack surface, read ELF structure, and normalize results into rupu work units and assets. Use the moment a target binary lands, before any deep RE or exploitation work.
-license: Proprietary
+license: Apache-2.0
 compatibility: Linux host with binutils (file, strings, nm, readelf, objdump); rabin2 (radare2) recommended for PE/Mach-O; checksec optional
 metadata:
   author: Section9Labs

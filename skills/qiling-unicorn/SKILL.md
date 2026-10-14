@@ -1,7 +1,7 @@
 ---
 name: qiling-unicorn
 description: Emulate binaries you cannot or should not run natively (foreign-arch firmware userland, extracted daemons, isolated samples) with the Qiling framework, and do raw CPU emulation of single lifted routines with Unicorn — instrument with hooks, intercept syscalls, fake MMIO, snapshot/restore to fuzz, and recover algorithms/keys. Use when a target binary is MIPS/ARM/etc. on an x86 analyst box, needs a firmware rootfs, or when you only need one decode/crypto/checksum function to run.
-license: Proprietary
+license: Apache-2.0
 metadata:
   author: Section9Labs
 ---

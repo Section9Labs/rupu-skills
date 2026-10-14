@@ -1,7 +1,7 @@
 ---
 name: recon
 description: Umbrella orchestrator for network reconnaissance and enumeration — drives the full phased flow (host discovery, port scanning, service/OS detection, per-protocol enumeration, inventory normalization) and routes each phase to the right sub-skill; load it at the start of any internal or external assessment to plan and sequence the recon pack.
-license: Proprietary
+license: Apache-2.0
 metadata:
   author: Section9Labs
   pack: recon

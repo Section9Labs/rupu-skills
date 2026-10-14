@@ -1,7 +1,7 @@
 ---
 name: brakeman
 description: Static analysis of Ruby on Rails applications with Brakeman - run the scanner against a Rails repo, interpret warning types/confidence/user-input paths, tune ignores, emit JSON+SARIF, and convert results into rupu work units for triage, verification, and reporting. Use whenever the target codebase is a Rails app (Gemfile with rails, app/ + config/routes.rb present).
-license: MIT
+license: Apache-2.0
 metadata:
   author: Section9Labs
 ---

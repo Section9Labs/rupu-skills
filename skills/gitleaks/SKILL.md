@@ -1,7 +1,7 @@
 ---
 name: gitleaks
 description: Scan git history and filesystems for hardcoded secrets with Gitleaks v8+ (fast regex + entropy over every commit); use at the start of any code review / SAST pass to find leaked credentials, API keys, tokens and private keys, then hand verified hits to the finding-report flow. Pair with the trufflehog skill for live credential verification.
-license: MIT
+license: Apache-2.0
 metadata:
   author: Section9Labs
   tool: gitleaks

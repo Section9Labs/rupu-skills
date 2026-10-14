@@ -1,7 +1,7 @@
 ---
 name: trufflehog
 description: Find AND live-verify leaked credentials with TruffleHog v3 — 800+ detectors that call each provider's API to confirm a secret is active; scan git history, GitHub orgs, filesystems, S3/GCS buckets and Docker images; use whenever you need to know which leaked keys actually work, and to confirm hits from the gitleaks skill. Normalizes JSONL output into rupu work units.
-license: MIT
+license: Apache-2.0
 metadata:
   author: Section9Labs
   tool: trufflehog

@@ -1,7 +1,7 @@
 ---
 name: find-sec-bugs
 description: Run SpotBugs with the Find Security Bugs plugin to find security vulnerabilities (injection, XXE, deserialization, SSRF, XSS, weak crypto, hardcoded secrets) in compiled Java/Kotlin/Scala/Groovy bytecode; use whenever a JVM project can be built to .class/.jar/.war and you need fast, pattern-based bytecode security review before deeper dataflow analysis.
-license: MIT
+license: Apache-2.0
 metadata:
   author: Section9Labs
 ---

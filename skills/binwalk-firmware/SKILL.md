@@ -1,6 +1,7 @@
 ---
 name: binwalk-firmware
 description: Carve, extract, and triage firmware images and unknown binary blobs with binwalk — signature/entropy/opcode scans, recursive (Matryoshka) extraction, filesystem unpacking (SquashFS/JFFS2/UBIFS/cpio and friends), then rootfs triage for network daemons, setuid binaries, hardcoded credentials and CVE-bearing component versions — emitting rupu work units that fan out to binary-triage and qiling-unicorn. Use whenever you are handed a firmware.bin, OTA update, flash dump, or any unknown blob that must be opened before real analysis can start.
+license: Apache-2.0
 metadata:
   author: Section9Labs
 ---

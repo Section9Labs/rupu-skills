@@ -1,7 +1,7 @@
 ---
 name: nfs-enum
 description: Enumerate and loot NFS found by recon (tcp,udp/111 rpcbind, 2049 nfs, mountd) — rpcinfo/showmount export discovery, export-ACL reading, mounting v3/v4, UID-spoofing and no_root_squash exploitation, nmap nfs-* NSE, with rupu-ingestible work units and findings.
-license: Proprietary
+license: Apache-2.0
 compatibility: Linux attack host with nfs-common (showmount, rpcinfo, mount.nfs), nmap; python3 for the parser; local root for uid attacks
 metadata:
   author: Section9Labs

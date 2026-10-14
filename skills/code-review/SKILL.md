@@ -1,7 +1,7 @@
 ---
 name: code-review
 description: Umbrella/router skill for authorized security code review of a source repository — triage the repo, then route to the right SAST, secret-scanning, SCA/SBOM, and taint-analysis sub-skills by name, normalize everything to one deduplicated finding set, and emit rupu-ingestible work units; load this first for any code-review engagement to get the end-to-end flow and know which sub-skill to load at each step.
-license: MIT
+license: Apache-2.0
 metadata:
   author: Section9Labs
 ---

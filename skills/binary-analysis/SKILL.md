@@ -1,7 +1,7 @@
 ---
 name: binary-analysis
 description: Umbrella skill for the binary analysis / reverse engineering / exploitation pack — the end-to-end flow for taking unknown binaries (ELF, PE, Mach-O, raw firmware) from first contact through triage, static and dynamic analysis, vulnerability identification, and working exploitation primitives; routes by name to every sub-skill in the pack. Load this first when handed one or more unknown binaries on an authorized engagement.
-license: Proprietary
+license: Apache-2.0
 metadata:
   author: Section9Labs
 ---

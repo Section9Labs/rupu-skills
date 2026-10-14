@@ -1,7 +1,7 @@
 ---
 name: dns-recon
 description: DNS reconnaissance and subdomain enumeration (udp/tcp 53) for external/perimeter scope — passive discovery (subfinder, amass, CT logs), direct interrogation and zone transfers (dig, host, dnsrecon), brute-force and permutations (puredns, dnsenum, fierce), bulk resolution/validation (massdns, dnsx), reverse PTR sweeps, and ASN pivoting. Produces a validated live-host/IP list that feeds the recon flow (nmap/naabu port scanning). Use at the start of any external engagement to map the target's DNS attack surface.
-license: Proprietary
+license: Apache-2.0
 compatibility: Linux; requires subfinder, amass, dnsx, massdns, puredns, dnsrecon, dnsenum, fierce, dig/host; Python 3 for parsing
 metadata:
   author: Section9Labs

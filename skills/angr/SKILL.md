@@ -1,7 +1,7 @@
 ---
 name: angr
 description: Symbolic/concolic execution with angr to solve for inputs that reach or avoid a program state — recover license/password/serial checks, prove reachability of a sink, and detect unconstrained (hijackable) states whose constraints feed straight into exploit development. Use when you need the input that satisfies a binary's checks rather than just running or reading it, or to locate control-flow hijack primitives.
-license: Proprietary
+license: Apache-2.0
 metadata:
   author: Section9Labs
 ---

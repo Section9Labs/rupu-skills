@@ -1,7 +1,7 @@
 ---
 name: nmap
 description: Full-capability Nmap methodology for authorized network assessments — host discovery, TCP/UDP port scanning, service/version and OS detection, NSE scripting, timing and firewall evasion, structured XML output, and parsing results into rupu-ingestible work units that feed the recon flow and per-service enumeration sub-skills.
-license: Proprietary
+license: Apache-2.0
 compatibility: Linux/macOS with nmap >= 7.80; root/CAP_NET_RAW for raw-socket scans; Python 3.8+ for scripts
 metadata:
   author: Section9Labs

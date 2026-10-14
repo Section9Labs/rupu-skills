@@ -1,7 +1,7 @@
 ---
 name: bandit
 description: Run and triage Bandit, the PyCQA Python SAST linter — recursive scans, config/baseline/threshold tuning, SARIF/JSON output, the full Bxxx test catalog by vulnerability class, noise suppression, and conversion of results into rupu work units; use when auditing Python source for injection, deserialization, crypto, SSL/TLS, secrets, and unsafe-API issues, then route deeper taint questions to semgrep/codeql/pysa.
-license: MIT
+license: Apache-2.0
 metadata:
   author: Section9Labs
 ---
